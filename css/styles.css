@@ -22,12 +22,27 @@ body {
     margin: 0 auto;
 }
 
+.header{
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    transition: .2s all linear;
+    z-index: 999;
+}
+
+.header_active{
+    background: hsl(36, 100%, 99%);
+
+}
+
 .header__wrapper {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
     padding-top: 50px;
+    padding-bottom: 10px;
 }
 
 .header__list {
@@ -64,7 +79,7 @@ body {
 }
 
 .intro {
-    margin-top: 55px;
+    margin-top: 164px;
     margin-bottom: 75px;
 }
 
