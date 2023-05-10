@@ -16,6 +16,10 @@ body {
     font-weight: normal;
     color: hsl(240, 100%, 5%);
 }
+.header__logo{
+    width: 100%;
+    height: 100%;
+}
 
 .wrapper {
     max-width: 1112px;
@@ -33,7 +37,6 @@ body {
 
 .header_active{
     background: hsl(36, 100%, 99%);
-
 }
 
 .header__wrapper {
@@ -86,19 +89,19 @@ body {
 .intro__cards {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-column-gap: 24px;
+    gap: 24px;
 }
 
 .intro__img {
-    max-height: 300px;
-    max-width: 733px;
+    height: auto;
+    width: 100%;
     margin-bottom: 30px;
 }
 
 .intro__article-card-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 24px;
+    gap: 24px;
 
 }
 
@@ -191,7 +194,7 @@ body {
 .article__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 24px;
+    gap: 24px;
 }
 
 .article__card-thum {
@@ -202,7 +205,7 @@ body {
 .article__card {
     display: grid;
     grid-template-columns: auto 1fr;
-    grid-column-gap: 24px;
+    gap: 24px;
 
 }
 
