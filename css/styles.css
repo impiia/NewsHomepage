@@ -1,3 +1,31 @@
+Skip to content
+Product
+Solutions
+Open Source
+Pricing
+Search
+Sign in
+Sign up
+impiia
+/
+NewsHomepage
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+NewsHomepage/css/styles.css
+@impiia
+impiia add header background during scrolling
+Latest commit eb50888 yesterday
+ History
+ 1 contributor
+403 lines (335 sloc)  6.6 KB
+ 
+
 html {
     box-sizing: border-box;
 }
@@ -16,10 +44,6 @@ body {
     font-weight: normal;
     color: hsl(240, 100%, 5%);
 }
-.header__logo{
-    width: 100%;
-    height: 100%;
-}
 
 .wrapper {
     max-width: 1112px;
@@ -37,6 +61,7 @@ body {
 
 .header_active{
     background: hsl(36, 100%, 99%);
+
 }
 
 .header__wrapper {
@@ -89,19 +114,19 @@ body {
 .intro__cards {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 24px;
+    grid-column-gap: 24px;
 }
 
 .intro__img {
-    height: auto;
-    width: 100%;
+    max-height: 300px;
+    max-width: 733px;
     margin-bottom: 30px;
 }
 
 .intro__article-card-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
+    grid-column-gap: 24px;
 
 }
 
@@ -194,7 +219,7 @@ body {
 .article__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    grid-column-gap: 24px;
 }
 
 .article__card-thum {
@@ -205,7 +230,7 @@ body {
 .article__card {
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 24px;
+    grid-column-gap: 24px;
 
 }
 
@@ -404,3 +429,18 @@ body {
         transform: translateY(-50%) rotate(-45deg);
     }
 }
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+NewsHomepage/styles.css at 00ef3190e229d923ed5b536a6eac801c6ad736c1 · impiia/NewsHomepage · GitHub
